@@ -1,0 +1,255 @@
+{
+  "main": {
+    "id": "6b9912c30977c83f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a49cac91ad1f4e6c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d8e29923c1bd08d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Networking Concepts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Networking Concepts"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f86eb952c9a13198",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4852f9dc6bf0395d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f39ff57702683883",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ae96f7dbdcaf51d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "adc405464b959b04",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4a15256ff0218514",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#protocols",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3da9e5e4dc70be42",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "6be0198dc878677a",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {},
+              "icon": "stacked-levels",
+              "title": "Tag Folder"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309
+  },
+  "right": {
+    "id": "8ac9cc0c81427dd7",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7e125b36f24ae4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "156b402fb73e7966",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "5824d8dbacdc1c28",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "8a316290eff9bcf7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8d6134ce7c4c037b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "711b5a27bc9ee352",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "4852f9dc6bf0395d",
+  "lastOpenFiles": [
+    "Networking Essentials.md",
+    "Untitled.base",
+    "Pasted image 20260221011527.png",
+    "Pasted image 20260220234506.png",
+    "Networking Concepts.md",
+    "Windows Logging.md",
+    "Untitled Kanban.md",
+    "Pasted image 20260214223625.png",
+    "Pasted image 20260214223621.png",
+    "Pasted image 20260214223617.png",
+    "Pasted image 20260214223217.png",
+    "DNS.md",
+    "Pasted image 20260212215133.png",
+    "THM Challenge Mayhem.md",
+    "Pasted image 20260211234443.png",
+    "Pasted image 20260211234409.png",
+    "Pasted image 20260211221124.png",
+    "Basic Dynamic Analysis.md",
+    "Advanced Static Analysis.md",
+    "Anti-Reverse Engineering.md",
+    "x86 Architecture Overview.md",
+    "x86 Assembly Crash Course.md",
+    "Windows Internals.md",
+    "Windows API.md",
+    "Registers.md",
+    "Phishing.md",
+    "NTLM.md",
+    "MITRE ATT&CK.md",
+    "Advanced Dynamic Analysis.md",
+    "w.md",
+    "Memory Overview.md",
+    "Malware Analysis Basics.md",
+    "Basic Static Analysis.md",
+    "Active Directory Basics.md",
+    "Kerberos Attacks.md",
+    "Kerberos.md",
+    "Excalidraw/my-obsidian-library.excalidrawlib",
+    "Excalidraw",
+    "Notes"
+  ]
+}

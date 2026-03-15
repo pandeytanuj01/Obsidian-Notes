@@ -1,0 +1,29 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "custom",
+    "custom": "a3be8c-eccc8c-d08871-c0616a-b48fad-88c1d0-82a1c1-5e81ad-4c566a-2e3440"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "activedirectory": 1,
+    "detectionengineering": 2,
+    "framework": 4,
+    "kerberos": 3,
+    "malwareanalysis": 9,
+    "networking": 10,
+    "phishing": 12,
+    "protocols": 5,
+    "thm-challenge": 13,
+    "webattacks": 8,
+    "windows": 10,
+    "x86architecture": 13,
+    "activedirectory/protocols": 1
+  },
+  "tagColors": {},
+  "_version": 4
+}
