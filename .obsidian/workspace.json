@@ -22,22 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "f86eb952c9a13198",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4852f9dc6bf0395d",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -92,6 +76,16 @@
           },
           {
             "id": "6be0198dc878677a",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {},
+              "icon": "stacked-levels",
+              "title": "Tag Folder"
+            }
+          },
+          {
+            "id": "a8d2cc74b38b3c4c",
             "type": "leaf",
             "state": {
               "type": "tagfolder-view",
@@ -188,14 +182,23 @@
               "icon": "lucide-list",
               "title": "Outline of Welcome"
             }
+          },
+          {
+            "id": "2c4455920bfec374",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,11 +210,13 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4852f9dc6bf0395d",
+  "active": "8d8e29923c1bd08d",
   "lastOpenFiles": [
+    "README.md",
     "Networking Essentials.md",
     "Untitled.base",
     "Pasted image 20260221011527.png",
