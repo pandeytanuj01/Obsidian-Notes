@@ -122,3 +122,12 @@ openssl s_client -connect target_IP -starttls ftp
 
 We can also see the SSL certificate, which can help us determine the hostname and sometimes even an email address of the organization or the company.
 
+## FTP Practice
+
+### 1. Reconnaissance using Nmap
+
+```
+nmap -sV -sC -v TARGET_IP
+```
+
+![[Pasted image 20260322212314.png]]
