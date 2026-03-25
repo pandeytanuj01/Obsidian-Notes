@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a49cac91ad1f4e6c",
+        "id": "b1e64a5477b4f931",
         "type": "tabs",
         "children": [
           {
-            "id": "8d8e29923c1bd08d",
+            "id": "0693e16d0396e1e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +19,20 @@
               },
               "icon": "lucide-file",
               "title": "FTP"
+            }
+          },
+          {
+            "id": "96b5814d19d9af5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SMB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SMB"
             }
           }
         ]
@@ -53,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#protocols",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,16 +104,26 @@
             "state": {
               "type": "tagfolder-view",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "tagfolder-view"
+            }
+          },
+          {
+            "id": "7d0a3a5f628462eb",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {},
               "icon": "stacked-levels",
               "title": "Tag Folder"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 309
+    "width": 309,
+    "collapsed": true
   },
   "right": {
     "id": "8ac9cc0c81427dd7",
@@ -199,7 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,14 +239,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d8e29923c1bd08d",
+  "active": "0693e16d0396e1e5",
   "lastOpenFiles": [
-    "Pasted image 20260322212314.png",
-    "Networking Concepts.md",
-    "Staff.md",
+    "Pasted image 20260325161029.png",
+    "Pasted image 20260325160410.png",
+    "SMB.md",
     "FTP.md",
     "Domain Information.md",
+    "Pasted image 20260322212314.png",
+    "Untitled 1.base",
     "Cloud Resources.md",
+    "Staff.md",
+    "Malware Analysis Basics.md",
+    "Registers.md",
+    "Networking Concepts.md",
     "README.md",
     "Networking Essentials.md",
     "Untitled.base",
@@ -238,8 +268,6 @@
     "Pasted image 20260212215133.png",
     "THM Challenge Mayhem.md",
     "Pasted image 20260211234443.png",
-    "Pasted image 20260211234409.png",
-    "Pasted image 20260211221124.png",
     "Basic Dynamic Analysis.md",
     "Advanced Static Analysis.md",
     "Anti-Reverse Engineering.md",
@@ -247,13 +275,10 @@
     "x86 Assembly Crash Course.md",
     "Windows Internals.md",
     "Windows API.md",
-    "Registers.md",
     "Phishing.md",
     "NTLM.md",
     "MITRE ATT&CK.md",
     "Advanced Dynamic Analysis.md",
-    "w.md",
-    "Memory Overview.md",
     "Excalidraw/my-obsidian-library.excalidrawlib",
     "Excalidraw",
     "Notes"
