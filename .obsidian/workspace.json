@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0693e16d0396e1e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FTP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "FTP"
-            }
-          },
-          {
             "id": "96b5814d19d9af5c",
             "type": "leaf",
             "state": {
@@ -239,12 +225,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0693e16d0396e1e5",
+  "active": "96b5814d19d9af5c",
   "lastOpenFiles": [
-    "Pasted image 20260325161029.png",
-    "Pasted image 20260325160410.png",
+    "Pasted image 20260326172811.png",
+    "Pasted image 20260326172646.png",
+    "Pasted image 20260326161946.png",
+    "Active Directory Basics.md",
+    "Advanced Dynamic Analysis.md",
     "SMB.md",
     "FTP.md",
+    "Pasted image 20260325161029.png",
+    "Pasted image 20260325160410.png",
     "Domain Information.md",
     "Pasted image 20260322212314.png",
     "Untitled 1.base",
@@ -263,11 +254,8 @@
     "Pasted image 20260214223625.png",
     "Pasted image 20260214223621.png",
     "Pasted image 20260214223617.png",
-    "Pasted image 20260214223217.png",
     "DNS.md",
-    "Pasted image 20260212215133.png",
     "THM Challenge Mayhem.md",
-    "Pasted image 20260211234443.png",
     "Basic Dynamic Analysis.md",
     "Advanced Static Analysis.md",
     "Anti-Reverse Engineering.md",
@@ -277,8 +265,6 @@
     "Windows API.md",
     "Phishing.md",
     "NTLM.md",
-    "MITRE ATT&CK.md",
-    "Advanced Dynamic Analysis.md",
     "Excalidraw/my-obsidian-library.excalidrawlib",
     "Excalidraw",
     "Notes"
