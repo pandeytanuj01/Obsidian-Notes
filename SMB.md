@@ -182,3 +182,69 @@ This tool automates many of the queries and can return a large amount of informa
 ```
 ./enum4linux-ng.py TARGET_IP -A
 ```
+
+## SMB Practice
+
+### 1. Recon using nmap
+
+```
+nmap TARGET_IP
+nmap -sV -sC -p 139,445 -v TARGET_IP
+```
+
+We can see that both port 139 and 445 are open with Samba smbd 4.6.2 version running.
+
+![[Pasted image 20260330123215.png]]
+
+### 2. Enumerating SMB shares
+
+```
+smbclient -N -L //TARGET_IP
+```
+
+![[Pasted image 20260330123435.png]]
+### 3. Anonymous Logon and discovering files
+
+We can observed a share named `sambashare`.  Using below command line we were able to login to the share anonymously.
+
+```
+smbclient -N //TARGET_IP/sambashare
+```
+
+![[Pasted image 20260330124148.png]]
+
+Below we were able to find our flag.
+
+![[Pasted image 20260330124802.png]]
+
+### 4. Finding information about Server
+
+We can use `rpcclient` to find out more information about the SMB server such as the domain, users, etc.
+
+![[Pasted image 20260330141013.png]]
+
+## Relevant (THM)
+
+### Recon using nmap
+
+![[Pasted image 20260330143042.png]]
+
+We observed 5 open ports, so now we will again do a deeper scan narrowing down to these port numbers.
+
+```
+nmap -sV -sC -v -p 80,135,139,445,3389 TARGET_IP
+```
+
+![[Pasted image 20260330143903.png]]
+
+![[Pasted image 20260330144005.png]]
+
+### 2. SMB shares enumeration and Anonymous Login
+
+![[Pasted image 20260330144316.png]]
+
+```
+smbclient -N -L //10.49.130.171
+smbclient -N //10.49.130.171/nt4wrksv
+```
+

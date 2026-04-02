@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "SMB"
             }
+          },
+          {
+            "id": "2b6a68260a12f92d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NFS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NFS"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,12 +119,12 @@
               "title": "Tag Folder"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 309,
-    "collapsed": true
+    "width": 309
   },
   "right": {
     "id": "8ac9cc0c81427dd7",
@@ -225,19 +240,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "96b5814d19d9af5c",
+  "active": "2b6a68260a12f92d",
   "lastOpenFiles": [
-    "Pasted image 20260326172811.png",
-    "Pasted image 20260326172646.png",
-    "Pasted image 20260326161946.png",
+    "Pasted image 20260402151455.png",
+    "Pasted image 20260402151432.png",
+    "Pasted image 20260402151346.png",
+    "Pasted image 20260402151314.png",
+    "Pasted image 20260402151144.png",
+    "Pasted image 20260402151027.png",
+    "Pasted image 20260402150451.png",
+    "SMB.md",
+    "NFS.md",
+    "Pasted image 20260402131203.png",
+    "Pasted image 20260402130902.png",
+    "Pasted image 20260402130831.png",
+    "Pasted image 20260402130450.png",
+    "FTP.md",
     "Active Directory Basics.md",
     "Advanced Dynamic Analysis.md",
-    "SMB.md",
-    "FTP.md",
-    "Pasted image 20260325161029.png",
-    "Pasted image 20260325160410.png",
     "Domain Information.md",
-    "Pasted image 20260322212314.png",
     "Untitled 1.base",
     "Cloud Resources.md",
     "Staff.md",
@@ -247,13 +268,8 @@
     "README.md",
     "Networking Essentials.md",
     "Untitled.base",
-    "Pasted image 20260221011527.png",
-    "Pasted image 20260220234506.png",
     "Windows Logging.md",
     "Untitled Kanban.md",
-    "Pasted image 20260214223625.png",
-    "Pasted image 20260214223621.png",
-    "Pasted image 20260214223617.png",
     "DNS.md",
     "THM Challenge Mayhem.md",
     "Basic Dynamic Analysis.md",
@@ -264,7 +280,6 @@
     "Windows Internals.md",
     "Windows API.md",
     "Phishing.md",
-    "NTLM.md",
     "Excalidraw/my-obsidian-library.excalidrawlib",
     "Excalidraw",
     "Notes"
