@@ -1,3 +1,5 @@
+#htb #Host-based-enumeration 
+
 Network File System is a network file system developed for the same purpose as SMB. Its purpose is to access file systems over a network as if they were local. 
 
 NFS is used between Linux and unix systems. This means that the NFS clients cannot communicate directly with SMB servers. 
